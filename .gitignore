@@ -4,3 +4,4 @@
 target
 /dist/
 docker/lts-admin/data/war/
+lts/master

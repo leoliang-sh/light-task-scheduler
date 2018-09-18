@@ -3,5 +3,7 @@
 .DS_Store
 target
 /dist/
-docker/lts-admin/data/war/
+docker/*.zip
+docker/lts-admin/war/
+docker/lts-jobtracker/lib/
 lts/master

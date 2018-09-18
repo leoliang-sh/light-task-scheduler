@@ -7,9 +7,10 @@ RUN apt-get update \
 	&& rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /lts/entrypoint.sh
-COPY war /lts/war
+
+COPY lib /lts/lib
 
 WORKDIR /lts
 
-EXPOSE 8080
+EXPOSE 35001
 CMD [ "sh", "-c", "/lts/entrypoint.sh" ]
